@@ -4,7 +4,7 @@ To crack the password, we can attempt to guess it. However, that can take a long
 
 First, we will run the command ``zip2john TopSecret.zip > myzip`` as seen in the following screenshot. Running this command will covert it into a format that can be cracked using John The Ripper.
 
-![[images/cimg-1]]
+![images/cimg-1]
 
 Once done, we can use any wordlist. In this example, we will be using ``rockyou.txt`` which can be found in the ``/usr/share/wordlists/rockyou.txt`` if you are using Kali Linux. You may choose your own wordlist for this challenge. The command will be:
 
