@@ -41,19 +41,19 @@ The chef is sad that his once world renowned recipe became: VVJLe0d1M19GM2NyRV9G
 
 We can see that the flag is most likely the recipe. Reading the lines, we can see that there are some clues as to how we can decrypt the recipe.
 
-From the word "64 bases" we can assume that base64 is at play. We can confirm this as a base64 string will have a double equal sign ``==`` at the end of the string which, is present in the recipe. We can also see that there is a person called "Caesar". Doing a quick search on the name within the cyber topic, we can see that it is refering to a cipher called "Caesar Cipher". We can see that Caesar had encrypted the recipe and "turned his 13 prized fruits rotten". We can guess that it might be using ROT13, a type of Caesar Cipher.
+From the word "64 bases" we can assume that Base64 is at play. We can confirm this as a Base64 string will have a double equal sign ``==`` at the end of the string which, is present in the recipe. We can also see that there is a person called "Caesar". Doing a quick search on the name within the cyber topic, we can see that it is refering to a cipher called "Caesar Cipher". We can see that Caesar had encrypted the recipe and "turned his 13 prized fruits rotten". We can guess that it might be using ROT13, a type of Caesar Cipher.
 
 To decrypt the recipe, we can use a tool called CyberChef (https://gchq.github.io/CyberChef/). Inputting the base64 string on the right and selecting the "From Base64" recipe reveals a part of the flag. 
 
 ![cimg-6](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/e27e514e892e8a00c10214a096b4dc90a3f9957d/challenges/misc/Chef/images/cimg-6.png)
 
-To further decrypt this, we can use the "ROT13" operator. As we can see in the following screenshot, we managed to obtain the flag in the output. The flag is ``HEX{Th3_S3peR_S3cr3t_ReCip3}``
+To further decrypt this, we can use the "ROT13" operator. As we can see in the following screenshot, we managed to obtain the flag in the output. The flag is ``HEX{Th3_S3peR_S3cr3t_ReCip3}``.
 
 ![cimg-7](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/e27e514e892e8a00c10214a096b4dc90a3f9957d/challenges/misc/Chef/images/cimg-7.png)
 
 #### Glossary:
 
-Base64 is a binary to text encoding scheme that represents the binary data in American Standard Code for information Interexchange (ASCII) string format.
+Base64 is a binary to text encoding scheme that represents the binary data in **American Standard Code for information Interexchange** (ASCII) string format.
 
 A Caesar Cipher is a type of substitution cipher that shifts letters in a message to make it unreadable.
 
