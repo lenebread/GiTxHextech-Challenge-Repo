@@ -11,3 +11,6 @@ Refresh your mind on cryptography by solving this flag
 
 ## Hints
 None
+
+## Flag
+HEX{W3Lc0m3-T0-CrYPT0gr@pHY}
