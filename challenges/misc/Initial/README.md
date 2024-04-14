@@ -1,5 +1,5 @@
 # Initial
-Never underestimate learning. Let creativity ideally perceive how everyone responds.
+Never underestimate learning. Let creativity ideally perceive how everyone responds./n
 Flag format: HEX{XXX_XXX}
 
 ## Summary
