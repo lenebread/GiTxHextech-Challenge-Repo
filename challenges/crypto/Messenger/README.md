@@ -1,5 +1,6 @@
 # Messenger
 With your new title, you are now ready for a more challenging quest. A letter has been discovered that contains a riddle with an encrypted message
+
 "The key is required to understand the message that has been decoded by a symmetric method known for its fixed block size. The key itself holds the value of a valuable find, something akin to a hidden treasure."
 Message: 964lCv5sFqsdip50KeyCkg==
 
