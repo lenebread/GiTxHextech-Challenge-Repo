@@ -3,7 +3,7 @@ As you see light seeping through the dark hallways, you have been trapped by wal
 
 <img width="459" alt="image" src="https://github.com/lenebread/GiTxHextech-Challenge-Repo/assets/166520861/c78d154b-5b43-4e27-af36-a43a122e7467">
 
-**Note: Complete the previous chllenge to receive a clue**
+**Note: Complete the previous challenge to receive a clue**
 
 ## Summary
  - **Author:** Valerie Lim
