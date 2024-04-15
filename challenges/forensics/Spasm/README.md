@@ -1,5 +1,5 @@
 # Spasm
-[Challenge Description]
+Any fps players? Valorant, CSGO? I love stretched resolution. Stretch resolution makes me brain go monke, monke brain spasm aim + schizophrenia. My favorite stretched resolution is 1440x1080 and I am slowly losing my s4n___.
 
 ## Summary
 - **Author:** Ivan Leong Cheng Yang
