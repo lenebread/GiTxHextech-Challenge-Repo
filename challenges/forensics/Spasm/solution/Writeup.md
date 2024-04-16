@@ -10,22 +10,22 @@ This image is basically a polyglot, so it is basically a zip file in disguise. T
 Tool used to make this polyglot : pdvzip - A simple command-line tool used to embed a ZIP file within a PNG image,
 
 After changing the file into a .cmd and executing it, you will get this screen to appear 
-![[Pasted image 20240415225214.png]]
+![20240415225214.png](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/main/challenges/forensics/Spasm/solution/Pasted%20image%2020240415225214.png)
 You realise that it is asking for a passphrase. 
 To get this passphrase, you need to analyze the file even further by using strings 
 Since we know that the creator is slowly losing something with the word s4n, we can search for s4n within the strings output. 
 
-![[Pasted image 20240415230008.png]]
+![Pasted image 20240415230008.png](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/main/challenges/forensics/Spasm/solution/Pasted%20image%2020240415230008.png)
 
 It seems there is a word that we now know and we filled in the blank in the original question. Let's try that as the password! 
 
 It seems to have extracted successfully. 
-![[Pasted image 20240415230205.png]]
+![20240415230205.png](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/main/challenges/forensics/Spasm/solution/Pasted%20image%2020240415230205.png)
 
 There is a New folder as well. 
 After looking inside it, you can see a flag.jpg
 
-![[Pasted image 20240415230346.png]]
+![20240415230346.png](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/main/challenges/forensics/Spasm/solution/Pasted%20image%2020240415230346.png)
 
 It seems that the flag is edging literally, which suggests a change in the widths and height of the image. Sounds familiar, didn't the creator mention his favorite resolution? 
 
@@ -36,7 +36,7 @@ To change the height of the image, you can go to a hex editor such as hexed.it, 
 To change the height, simply look for the first FF C0 that appears in the file (Indicator of SOF) and start reading it till you find 02 1C which is the hexadecimal values that represent the height. Change it back to 1080 in hexadecimal which is 04 38
 
 Save the file and you would get the flag 
-![[Pasted image 20240415231038.png]]
+![20240415231038.png](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/main/challenges/forensics/Spasm/solution/Pasted%20image%2020240415231038.png)
 
 
 
