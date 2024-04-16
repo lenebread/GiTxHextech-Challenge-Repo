@@ -3,7 +3,7 @@ Any fps players? Valorant, CSGO? I love stretched resolution. Stretch resolution
 ---
 
 You are first presented with this file goodluck.png
-![[goodluck.png]]
+![[challenges/forensics/Spasm/solution/goodluck.png]]
 
 This image is basically a polyglot, so it is basically a zip file in disguise. To extract the zip file out of this image, change the file extension to a .cmd 
 
