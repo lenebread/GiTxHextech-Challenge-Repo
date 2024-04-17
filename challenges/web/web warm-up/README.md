@@ -7,7 +7,7 @@ Simple flag but why.html is it not showing?
 - Author: Goh Zavier
 - Discord Username: twilightzon
 - Category: Web
-- Diffculty: Very Easy
+- Diffculty: Easy
 
 ## Hints
 
