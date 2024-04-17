@@ -6,7 +6,7 @@ The chef needs your help! Are you able to recover his secret recipe?
 
 - Author: Goh Zavier
 - Discord Username: twilightzon
-- Category: Cryptography
+- Category: Misc
 - Diffculty: Easy
 
 ## Hints
