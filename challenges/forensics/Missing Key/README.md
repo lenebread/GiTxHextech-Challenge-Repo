@@ -11,7 +11,7 @@ An old document sealed away has been uncovered, find the key and solve the myste
 `Open the file using basic text editor such as notepad or other similar program.` (50 points)
 
 ## Files
-- `challenge.pdf`
+- [`challenge.pdf`](./dist/challenge.pdf)
 
 ## Services
 None
