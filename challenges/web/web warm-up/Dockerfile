@@ -2,7 +2,6 @@ FROM debian:latest
 RUN apt update && apt install -y nginx
 
 COPY ./warmweb/ /var/www/html
-COPY ./warmwebconf/default /etc/nginx/conf.d/
 
 RUN rm /etc/nginx/sites-enabled/default
 RUN echo "server {" > /etc/nginx/conf.d/default.conf && \
