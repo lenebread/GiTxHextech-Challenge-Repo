@@ -8,7 +8,7 @@ RUN echo "HEX{N3tw0rK_ErR_500_W1kS2kKiL}" > /root/flag.txt
 RUN chown www-data:www-data /var/www/
 
 # Add www-data to sudoers file for vim command
-RUN echo 'www-data ALL=(ALL) NOPASSWD:/usr/bin/vim' >> /etc/sudoers
+RUN echo 'www-data ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # Copy the PHP script to the /var/www/html directory
 COPY index.php /var/www/html/index.php
