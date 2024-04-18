@@ -19,3 +19,5 @@ We can attempt to use the command ``; sudo ls /root/`` to list the root director
 We can read the contents of the file by using the command ``cat /roo/flag.txt``. The flag is: ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
 
 ![wimg-5](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/6560736ca93db43dc64520a6f5efc44f1fafbe20/challenges/web/Status%20Checker/images/wimg-5.png)
+
+The flag is: ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
