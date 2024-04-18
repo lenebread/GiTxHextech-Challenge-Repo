@@ -7,7 +7,7 @@ Check out this simple HTTP status checker I made!
 - Author: Goh Zavier
 - Discord Username: gzavz
 - Category: Web
-- Diffculty: Medium
+- Diffculty: Easy
 
 ## Hints
 
