@@ -49,4 +49,12 @@ Replace ``YOUR-IP-HERE`` with your IP address and ``PORT-HERE`` with your desire
 
 ![wimg-7](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/a0a1f11bace0c0ed057208ff3d3ce65661dfe2af/challenges/web/Status%20Checker/images/wimg-7.png)
 
+Once done, wait for the cronjob to run the script. This should take a minute or two. 
 
+Once the script is ran and we are able to get a reverse shell as the root user, we can use the command ``script -qc /bin/bash /dev/null`` again to spawn an interactive shell as seen in the following screenshot.
+
+![wimg-8]()
+
+We can obtain the flag in the root directory. The flag is ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
+
+![wimg-9]()
