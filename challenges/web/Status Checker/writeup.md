@@ -16,4 +16,4 @@ We can attempt to use the command ``sudo ls /root/`` to list the root directory.
 
 ![wimg-4]()
 
-We can read the contents of the file by using the command ``cat /roo/flag.txt``. The flag is: ````
+We can read the contents of the file by using the command ``cat /roo/flag.txt``. The flag is: ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
