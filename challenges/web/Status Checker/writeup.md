@@ -10,10 +10,12 @@ Entering a semi-colon (;) will break the command. We can try to use the payload 
 
 We can attempt to use the command ``; sudo -l``. We can see that we are able to run any command as sudo without a password as seen in the followings screenshot.
 
-![wimg-3]()
+![wimg-3](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/6560736ca93db43dc64520a6f5efc44f1fafbe20/challenges/web/Status%20Checker/images/wimg-3.png)
 
 We can attempt to use the command ``; sudo ls /root/`` to list the root directory. We can see that there is a file called ``flag.txt`` as seen in the following screenshot.
 
-![wimg-4]()
+![wimg-4](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/6560736ca93db43dc64520a6f5efc44f1fafbe20/challenges/web/Status%20Checker/images/wimg-4.png)
 
 We can read the contents of the file by using the command ``cat /roo/flag.txt``. The flag is: ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``
+
+![wimg-5](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/6560736ca93db43dc64520a6f5efc44f1fafbe20/challenges/web/Status%20Checker/images/wimg-5.png)
