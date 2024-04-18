@@ -2,7 +2,7 @@ We are given a site where we can check the status of websites.
 
 Entering a valid URL such as ``https://google.com`` will return us the HTTP status code as seen in the following screenshot.
 
-![[wimg-1]]
+![[[wimg-1](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/2172799693442df396d9857becae25e70e1ca596/challenges/web/Status%20Checker/images/wimg-1.png)]]
 
 Entering a semi-colon (;) will break the command. We can try to use the payload ``; whoami``  and we are returned ``www-data`` as our user as seen in the following screenshot.
 
