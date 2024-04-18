@@ -8,11 +8,11 @@ Entering a semi-colon (;) will break the command. We can try to use the payload 
 
 ![wimg-2](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/a0a1f11bace0c0ed057208ff3d3ce65661dfe2af/challenges/web/Status%20Checker/images/wimg-2.png)
 
-We can attempt to use the command ``sudo -l``. We can see that we are able to run any command as sudo without a password as seen in the followings screenshot.
+We can attempt to use the command ``; sudo -l``. We can see that we are able to run any command as sudo without a password as seen in the followings screenshot.
 
 ![wimg-3]()
 
-We can attempt to use the command ``sudo ls /root/`` to list the root directory. We can see that there is a file called ``flag.txt`` as seen in the following screenshot.
+We can attempt to use the command ``; sudo ls /root/`` to list the root directory. We can see that there is a file called ``flag.txt`` as seen in the following screenshot.
 
 ![wimg-4]()
 
