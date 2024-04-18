@@ -40,4 +40,6 @@ Using the command ``whoami`` we can see that we are now the root user as seen in
 
 ![wimg-7](https://github.com/lenebread/GiTxHextech-Challenge-Repo/blob/64886584ff8936fb97898bbd2e3c574d9482bacc/challenges/web/Status%20Checker/images/wimg-7.png)
 
-We can obtain the flag in the root directory by using the command ``cd /root`` and ``cat flag.txt``. The flag is ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``.
+We can obtain the flag in the root directory by using the command ``cd /root`` and ``cat flag.txt``. 
+
+The flag is ``HEX{N3tw0rK_ErR_500_W1kS2kKiL}``.
