@@ -5,7 +5,7 @@ The chef needs your help! Are you able to recover his secret recipe?
 ## Summary
 
 - Author: Goh Zavier
-- Discord Username: twilightzon
+- Discord Username: gzavz
 - Category: Misc
 - Diffculty: Easy
 
