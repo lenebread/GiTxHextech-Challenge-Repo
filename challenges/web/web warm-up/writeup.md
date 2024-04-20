@@ -8,7 +8,7 @@ Once on the "why.html" page, we are given a hint as to how we can obtain the fla
 
 Viewing the page source again and we are able to see that our flag is hidden on the page.
 
-The flag is: ``Here``
+The flag is: ``HEX{B@s1c_w3B_012siXJv}``
 
 # Second Method
 
@@ -16,4 +16,4 @@ Reading the description, we can see that there is a text called ``why.html``. Th
 
 Upon navigating to it, we are given a hint as to how we can obtain the flag. We can obtain it by viewing the page source.
 
-The flag is: ``Here``
+The flag is: ``HEX{B@s1c_w3B_012siXJv}``
