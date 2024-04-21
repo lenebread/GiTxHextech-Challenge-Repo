@@ -2,11 +2,15 @@ This challenge requires you to view source of the HTML pages. There are two ways
 
 # First Method
 
-Navigate to the challenge link. We are provided with a site that says to read the description again. Alternatively, we can also view the page source and see that there is a hidden text that links to another page called "why.html".
+Navigate to the challenge link. We are provided with a site that says to read the description again. Alternatively, we can also view the page source and see that there is a hidden text that links to another page called "why.html" as seen in the following screenshot.
+
+![img-1]()
 
 Once on the "why.html" page, we are given a hint as to how we can obtain the flag.
 
-Viewing the page source again and we are able to see that our flag is hidden on the page.
+Viewing the page source again and we are able to see that our flag is hidden on the page as seen in the following screenshot.
+
+![img-2]()
 
 The flag is: ``HEX{B@s1c_w3B_012siXJv}``
 
