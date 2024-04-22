@@ -1,3 +1,5 @@
 # GiTxHextech-Challenge-Repo
 
-This will be the repo for submitted challenges, view folder to see accepted categories
+This is the challenge repository of the CTF challenges that were used during the CTF competition held in RP.
+
+For any questions, please PM 
